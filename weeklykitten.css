@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+/*
+Name: Olamide Owolabi
+Date: 5th Movember-2022
+Section: 22F_CST8285_301 ......
+This is the stylesheet for Lab 4
+Some labs I have done during CST 8285 .......
+*/
+
+body{
+   
+    min-height: 100vh;
+    background: #f1ecec;
+       font-family: 'Poppins', sans-serif;
+}
+
+form{
+   border: 2.5px solid rgba(49, 47, 47, 0.39);
+   padding: 20px 10px 10px 25px;
+   background: #ffff;
+   box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.359);
+    width: 90%;
+}
+
+input[type=text],input[type=password]
+{
+    width: 95%;
+    margin-top: 7px;
+   
+    margin-right: 7px;
+    margin-left: 5px;
+    border: 1px solid rgb(161, 157, 157);
+     min-height: 4.5vh;
+}
+
+.textfield{
+margin-top: 7px;
+display: flex;
+align-content: center;
+flex-direction: column;
+}
+
+input[type=text].wronginput,input[type=password].wronginput
+{
+   
+    border: 3px solid rgb(255, 42, 42);
+}
+
+button[type=submit]
+{
+    background-color: rgb(59, 63, 254);
+    color:white;
+    cursor: pointer;
+    font-weight: 600;
+   padding: 6px 10px 6px 10px;
+   margin-top: 10px;
+   transition: all 0.3s ease;
+}
+
+button[type=reset]
+{
+
+    background-color: rgb(227, 12, 12);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    opacity: 0.7;
+    color: black;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.err{
+    color: rgb(255, 42, 42);
+    font-size: 14px;
+    opacity: 0;
+}
+
+
+.err.active{
+    opacity: 1;
+}
+
